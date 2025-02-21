@@ -1,5 +1,5 @@
 # AV2
-A AV2 terá duração de 2 semanas, deve ser entregue até a meia noite do dia 06/03/2025.  
+A AV2 terá duração de 2 semanas, deve ser entregue até a meia noite do dia 13/03/2025.  
 Cada aluno deve criar um fork deste repositório e modificá-lo de acordo com a proposta escolhida abaixo.  
 A utilização de [github pages](https://pages.github.com/) é obrigatória.  
 Para melhor aproveitamento, utilize o tutorial sobre o [ambiente de desenvolvimento](https://github.com/prof-hfabio/ambiente) para se ambientar, será proveitoso para o resto da disciplina (e possivelmente para a sua carreira)
