@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COBRINHA GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="start-menu">
+        <h1>COBRINHA GAME</h1>
+        <p>Escolha a dificuldade para começar:</p>
+        <div id="difficulty-buttons">
+            <button class="difficulty-btn" data-speed="150">Normal</button>
+            <button class="difficulty-btn" data-speed="100">Hard</button>
+            <button class="difficulty-btn" data-speed="70">Expert</button>
+        </div>
+    </div>
+
+    <div id="game-area" class="hidden">
+        <div id="info-bar">
+            <div class="score-box">
+                <span class="score-title">PONTUAÇÃO</span>
+                <span id="current-score" class="score-value">0</span>
+            </div>
+            <div class="score-box">
+                <span class="score-title">MELHOR PONTUAÇÃO</span>
+                <span id="high-score" class="score-value">0</span>
+            </div>
+        </div>
+        <canvas id="gameCanvas" width="600" height="600"></canvas>
+        <div id="controls">
+            <button id="pauseBtn">Pausar (Espaço)</button>
+            <button id="restartBtn">Reiniciar (Enter)</button>
+        </div>
+    </div>
+
+    <audio id="eatSound" src="eat.mp3"></audio>
+    <audio id="gameOverSound" src="gameover.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
